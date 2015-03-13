@@ -1,0 +1,8 @@
+<Palette Name="MyPalette">
+  <PaletteEntry Color="#FF8000" Color2="#FF8000" />
+  <PaletteEntry Color="#EA157A" Color2="#A40F55" />
+  <PaletteEntry Color="#DB2DDB" Color2="#DB2DDB" />
+  <PaletteEntry Color="#00ADDC" Color2="#00799A" />
+  <PaletteEntry Color="#808040" Color2="#808040" />
+  <PaletteEntry Color="#1AB39F" Color2="#127D6F" />
+</Palette>
