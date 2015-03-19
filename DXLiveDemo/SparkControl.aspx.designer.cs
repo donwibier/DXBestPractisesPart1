@@ -31,13 +31,13 @@ namespace DXLiveDemo {
         protected global::DevExpress.Web.ASPxButton LeftShiftButton;
         
         /// <summary>
-        /// chart control.
+        /// RangeChartControl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxImage chart;
+        protected global::DevExpress.XtraCharts.Web.WebChartControl RangeChartControl;
         
         /// <summary>
         /// ASPxTrackBar1 control.

@@ -19,9 +19,74 @@
 						  </dx:ASPxButton>
 					 </div>
 					 <div class="trackBarWrapper" style="float: left;">
-						  
+						  <dxchartsui:WebChartControl ID="RangeChartControl" runat="server" SeriesDataMember="SeriesName"
+								CrosshairEnabled="False" Height="82px" Width="800px" BackColor="Transparent">
+								<padding bottom="0" left="0" right="0" top="0" />
+								<borderoptions visibility="False" />
+								<diagramserializable>
+									 <cc1:SwiftPlotDiagram>
+										  <axisx visibleinpanesserializable="-1" color="Transparent" Visibility="False" alignment="Far">
+												<tickmarks minorvisible="False" visible="False" />
+												<label visible="False">
+												</label>
+												<numericscaleoptions autogrid="False" customgridalignment="0.02" gridalignment="Custom" gridspacing="25" />
+										  </axisx>
+										  <axisy visibleinpanesserializable="-1" color="Transparent" Visibility="False" alignment="Far">
+												<tickmarks minorvisible="False" visible="False" />
+												<label visible="False">
+												</label>
+												<visualrange autosidemargins="False" sidemarginsvalue="0" />
+												<wholerange alwaysshowzerolevel="False" AutoSideMargins="False" SideMarginsValue="0" />
+												<gridlines visible="False">
+												</gridlines>
+												<numericscaleoptions autogrid="False" gridspacing="0.5" />
+										  </axisy>
+										  <margins bottom="0" left="0" right="0" top="6" />
+										  <defaultpane backcolor="Transparent" bordervisible="False" sizeinpixels="50" sizemode="UseSizeInPixels">
+										  </defaultpane>
+									 </cc1:SwiftPlotDiagram>
+								</diagramserializable>
+								<fillstyle fillmode="Empty"></fillstyle>
+								<legend visibility="False"></legend>
+								<seriesserializable>
+									 <cc1:Series LabelsVisibility="False" Name="Series 4">
+										  <points>
+												<cc1:SeriesPoint ArgumentSerializable="1" Values="1">
+												</cc1:SeriesPoint>
+												<cc1:SeriesPoint ArgumentSerializable="2" Values="5">
+												</cc1:SeriesPoint>
+												<cc1:SeriesPoint ArgumentSerializable="3" Values="6">
+												</cc1:SeriesPoint>
+												<cc1:SeriesPoint ArgumentSerializable="4" Values="10">
+												</cc1:SeriesPoint>
+												<cc1:SeriesPoint ArgumentSerializable="5" Values="8">
+												</cc1:SeriesPoint>
+												<cc1:SeriesPoint ArgumentSerializable="6" Values="7">
+												</cc1:SeriesPoint>
+												<cc1:SeriesPoint ArgumentSerializable="7" Values="10">
+												</cc1:SeriesPoint>
+												<cc1:SeriesPoint ArgumentSerializable="8" Values="4">
+												</cc1:SeriesPoint>
+												<cc1:SeriesPoint ArgumentSerializable="9" Values="2">
+												</cc1:SeriesPoint>
+										  </points>
+										  <viewserializable>
+												<cc1:SwiftPlotSeriesView>
+													 <linestyle thickness="2" />
+												</cc1:SwiftPlotSeriesView>
+										  </viewserializable>
+									 </cc1:Series>
+								</seriesserializable>
+								<seriestemplate>
+									 <viewserializable>
+										  <cc1:SwiftPlotSeriesView>
+												<linestyle thickness="2" />
+										  </cc1:SwiftPlotSeriesView>
+									 </viewserializable>
+								</seriestemplate>
+						  </dxchartsui:WebChartControl>
 
-						  <dx:ASPxImage ID="chart" runat="server" Width="800px" Height="82px" ImageUrl="~/DrawChart.aspx?w=800&h=82"></dx:ASPxImage>
+						  <%--<dx:ASPxImage ID="chart" runat="server" Width="800px" Height="82px" ImageUrl="~/DrawChart.aspx?w=800&h=82"></dx:ASPxImage>--%>
 						  <dx:ASPxTrackBar ID="ASPxTrackBar1" runat="server" Height="82px" Width="800px"></dx:ASPxTrackBar>
 					 </div>
 					 <div style="float: left;">
